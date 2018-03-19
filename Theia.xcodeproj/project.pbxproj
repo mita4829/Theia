@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D246656204444E20016326A /* LearningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D246655204444E20016326A /* LearningModel.swift */; };
+		6DB37C512051FB7600809F57 /* remindersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DB37C502051FB7600809F57 /* remindersList.plist */; };
+		6DB3B468202EA8EA004CD7CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3B467202EA8EA004CD7CB /* AppDelegate.swift */; };
+		6DB3B46A202EA8EA004CD7CB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3B469202EA8EA004CD7CB /* FirstViewController.swift */; };
+		6DB3B46C202EA8EA004CD7CB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB3B46B202EA8EA004CD7CB /* SecondViewController.swift */; };
+		6DB3B46F202EA8EA004CD7CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3B46D202EA8EA004CD7CB /* Main.storyboard */; };
+		6DB3B471202EA8EA004CD7CB /*  .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3B470202EA8EA004CD7CB /*  .xcassets */; };
+		6DB3B474202EA8EA004CD7CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DB3B472202EA8EA004CD7CB /* LaunchScreen.storyboard */; };
+		6DE065CC203C840B008BFA25 /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE065CB203C840B008BFA25 /* Reminders.swift */; };
+		6DE065CE203C88AC008BFA25 /* NewReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE065CD203C88AC008BFA25 /* NewReminderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D246655204444E20016326A /* LearningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningModel.swift; sourceTree = "<group>"; };
+		6DB37C502051FB7600809F57 /* remindersList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = remindersList.plist; sourceTree = "<group>"; };
+		6DB3B464202EA8EA004CD7CB /* Theia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Theia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DB3B467202EA8EA004CD7CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6DB3B469202EA8EA004CD7CB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6DB3B46B202EA8EA004CD7CB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		6DB3B46E202EA8EA004CD7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DB3B470202EA8EA004CD7CB /*  .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = " .xcassets"; sourceTree = "<group>"; };
+		6DB3B473202EA8EA004CD7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DB3B475202EA8EA004CD7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE065CB203C840B008BFA25 /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
+		6DE065CD203C88AC008BFA25 /* NewReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReminderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB3B461202EA8EA004CD7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DB3B45B202EA8EA004CD7CB = {
+			isa = PBXGroup;
+			children = (
+				6DB3B466202EA8EA004CD7CB /* Theia */,
+				6DB3B465202EA8EA004CD7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DB3B465202EA8EA004CD7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DB3B464202EA8EA004CD7CB /* Theia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DB3B466202EA8EA004CD7CB /* Theia */ = {
+			isa = PBXGroup;
+			children = (
+				6DB3B467202EA8EA004CD7CB /* AppDelegate.swift */,
+				6DB3B469202EA8EA004CD7CB /* FirstViewController.swift */,
+				6D246655204444E20016326A /* LearningModel.swift */,
+				6DB3B46B202EA8EA004CD7CB /* SecondViewController.swift */,
+				6DB3B46D202EA8EA004CD7CB /* Main.storyboard */,
+				6DB37C502051FB7600809F57 /* remindersList.plist */,
+				6DE065CD203C88AC008BFA25 /* NewReminderViewController.swift */,
+				6DE065CB203C840B008BFA25 /* Reminders.swift */,
+				6DB3B470202EA8EA004CD7CB /*  .xcassets */,
+				6DB3B472202EA8EA004CD7CB /* LaunchScreen.storyboard */,
+				6DB3B475202EA8EA004CD7CB /* Info.plist */,
+			);
+			path = Theia;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DB3B463202EA8EA004CD7CB /* Theia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DB3B478202EA8EA004CD7CB /* Build configuration list for PBXNativeTarget "Theia" */;
+			buildPhases = (
+				6DB3B460202EA8EA004CD7CB /* Sources */,
+				6DB3B461202EA8EA004CD7CB /* Frameworks */,
+				6DB3B462202EA8EA004CD7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Theia;
+			productName = Theia;
+			productReference = 6DB3B464202EA8EA004CD7CB /* Theia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB3B45C202EA8EA004CD7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Michael Tang";
+				TargetAttributes = {
+					6DB3B463202EA8EA004CD7CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6DB3B45F202EA8EA004CD7CB /* Build configuration list for PBXProject "Theia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DB3B45B202EA8EA004CD7CB;
+			productRefGroup = 6DB3B465202EA8EA004CD7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DB3B463202EA8EA004CD7CB /* Theia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DB3B462202EA8EA004CD7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB3B474202EA8EA004CD7CB /* LaunchScreen.storyboard in Resources */,
+				6DB3B471202EA8EA004CD7CB /*  .xcassets in Resources */,
+				6DB37C512051FB7600809F57 /* remindersList.plist in Resources */,
+				6DB3B46F202EA8EA004CD7CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DB3B460202EA8EA004CD7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DB3B46C202EA8EA004CD7CB /* SecondViewController.swift in Sources */,
+				6D246656204444E20016326A /* LearningModel.swift in Sources */,
+				6DB3B468202EA8EA004CD7CB /* AppDelegate.swift in Sources */,
+				6DE065CE203C88AC008BFA25 /* NewReminderViewController.swift in Sources */,
+				6DB3B46A202EA8EA004CD7CB /* FirstViewController.swift in Sources */,
+				6DE065CC203C840B008BFA25 /* Reminders.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DB3B46D202EA8EA004CD7CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB3B46E202EA8EA004CD7CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DB3B472202EA8EA004CD7CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DB3B473202EA8EA004CD7CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DB3B476202EA8EA004CD7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6DB3B477202EA8EA004CD7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DB3B479202EA8EA004CD7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSWH4Y4D5;
+				INFOPLIST_FILE = Theia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.Theia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DB3B47A202EA8EA004CD7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRSWH4Y4D5;
+				INFOPLIST_FILE = Theia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = michael.Theia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DB3B45F202EA8EA004CD7CB /* Build configuration list for PBXProject "Theia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB3B476202EA8EA004CD7CB /* Debug */,
+				6DB3B477202EA8EA004CD7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DB3B478202EA8EA004CD7CB /* Build configuration list for PBXNativeTarget "Theia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB3B479202EA8EA004CD7CB /* Debug */,
+				6DB3B47A202EA8EA004CD7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB3B45C202EA8EA004CD7CB /* Project object */;
+}
